@@ -1,7 +1,7 @@
 
 # Emotion Classification for Journaling Feature
 
-Proyek ini bertujuan untuk mengklasifikasikan emosi dalam opini publik berbahasa Indonesia menggunakan pendekatan deep learning berbasis LSTM dengan lapisan Attention. Dataset yang digunakan merupakan kumpulan opini publik yang diambil dari media sosial tweeter dan telah dilabeli berdasarkan kategori emosi.
+Proyek ini bertujuan untuk mengklasifikasikan emosi dalam opini publik berbahasa Indonesia menggunakan pendekatan deep learning berbasis LSTM dengan arsitektur Tensorflow. Dataset yang digunakan merupakan kumpulan opini publik yang diambil dari media sosial tweeter dan telah dilabeli berdasarkan kategori emosi.
 
 ---
 
@@ -96,7 +96,7 @@ Model dievaluasi dengan metrik:
 
 **Overall Metrics**:
 
-- **Accuracy**: 0.83 (3543 samples)
+- **Accuracy**: 0.83
 - **Macro Avg**: Precision = 0.83, Recall = 0.83, F1-Score = 0.82
 - **Weighted Avg**: Precision = 0.83, Recall = 0.83, F1-Score = 0.82
 
