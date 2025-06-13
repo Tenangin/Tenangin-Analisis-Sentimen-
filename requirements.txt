@@ -1,0 +1,11 @@
+flask
+tensorflow==2.15.0
+pandas==2.1.4
+numpy==1.24.4
+matplotlib==3.8.4
+seaborn==0.13.2
+wordcloud==1.9.3
+requests==2.31.0
+nltk==3.8.1
+Sastrawi==1.0.1
+scikit-learn==1.4.2
