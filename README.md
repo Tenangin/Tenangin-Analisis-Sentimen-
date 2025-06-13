@@ -9,7 +9,7 @@ Proyek ini bertujuan untuk mengklasifikasikan emosi dalam opini publik berbahasa
 
 Dataset yang digunakan berasal dari repositori GitHub:
 
-🔗 [Emotion Dataset from Indonesian Public Opinion – by Ricco48](https://github.com/Ricco48/Emotion-Dataset-from-Indonesian-Public-Opinion/tree/main/Emotion%20Dataset%20from%20Indonesian%20Public%20Opinion)
+[Emotion Dataset from Indonesian Public Opinion – by Ricco48](https://github.com/Ricco48/Emotion-Dataset-from-Indonesian-Public-Opinion/tree/main/Emotion%20Dataset%20from%20Indonesian%20Public%20Opinion)
 
 Dataset terdiri dari beberapa file terpisah berdasarkan label emosi (seperti `joy.csv`, `sadness.csv`, `anger.csv`, dll). Sebelum digunakan, **semua file tersebut telah digabungkan (merge) menjadi satu file utama** bernama `data_merge.csv`. Proses merging ini mencakup:
 
@@ -19,7 +19,7 @@ Dataset terdiri dari beberapa file terpisah berdasarkan label emosi (seperti `jo
 
 ---
 
-## 🧪 Tujuan
+## Tujuan
 
 Tujuan utama proyek ini adalah:
 - Membangun model klasifikasi emosi berbasis teks bahasa Indonesia
@@ -39,7 +39,7 @@ Model ini menggunakan arsitektur model tensorflow yang terdiri dari:
 - **Dense + Softmax Layer**: Untuk klasifikasi akhir menjadi salah satu dari beberapa emosi
 
 
-## 🔍 Preprocessing & Tokenisasi
+## Preprocessing & Tokenisasi
 
 - Tokenisasi dilakukan menggunakan `Tokenizer` dari Keras
 - Padding dilakukan dengan panjang tetap (`max_len = 20`)
@@ -48,7 +48,7 @@ Model ini menggunakan arsitektur model tensorflow yang terdiri dari:
 
 ---
 
-## ⚖️ Class Imbalance Handling
+## Class Imbalance Handling
 
 Menggunakan `compute_class_weight` dari Scikit-learn untuk mengatasi ketidakseimbangan jumlah data antar kelas emosi. Beberapa class weight juga dituning manual untuk hasil optimal:
 
@@ -60,7 +60,7 @@ class_weight_dict[5] = 1.18
 
 ---
 
-## 🧠 Training
+## Training
 
 Model dilatih menggunakan:
 
@@ -72,7 +72,7 @@ Model dilatih menggunakan:
 
 ---
 
-## 📈 Evaluasi
+## Evaluasi
 
 Model dievaluasi dengan metrik:
 
